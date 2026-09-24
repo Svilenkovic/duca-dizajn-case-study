@@ -2,25 +2,25 @@
 
 # Duca Dizajn
 
-Konceptni sajt za studio grafičkog dizajna iz Novog Sada koji radi preko Instagrama: usluge, početne cene, proces i česta pitanja na jednoj strani.
+Portfolio sajt za Duca Dizajn iz Novog Sada, grafički dizajn preko Instagrama: usluge, početne cene, proces i česta pitanja na jednoj strani.
 
 **[ducadizajn.svilenkovic.com](https://ducadizajn.svilenkovic.com/)** · [Studija slučaja](https://svilenkovic.rs/radovi/duca-dizajn) · [English](README.md)
 
 > [!NOTE]
-> Moj sopstveni demo. Izvorni kod je privatan. Ova stranica opisuje ideju i kako je napravljen.
+> Klijentski projekat. Izvorni kod pripada klijentu i čuva se u privatnom repozitorijumu. Ova stranica opisuje šta sam uradio i kako.
 
 <table>
-  <tr><td><b>Klijent</b></td><td>Konceptni projekat</td></tr>
+  <tr><td><b>Klijent</b></td><td>Duca Dizajn</td></tr>
   <tr><td><b>Delatnost</b></td><td>Grafički dizajn: logotipi, vizit karte, pozivnice i štampa</td></tr>
   <tr><td><b>Lokacija</b></td><td>Novi Sad</td></tr>
   <tr><td><b>Vrsta</b></td><td>Portfolio sajt</td></tr>
-  <tr><td><b>Moj deo posla</b></td><td>Koncept, dizajn, izrada, SEO i hosting</td></tr>
-  <tr><td><b>Tehnologije</b></td><td>HTML5, CSS3, vanilla JS, GSAP ScrollTrigger</td></tr>
+  <tr><td><b>Moj deo posla</b></td><td>Dizajn, izrada, SEO, hosting i održavanje</td></tr>
+  <tr><td><b>Tehnologije</b></td><td>HTML5, CSS3, vanilla JS</td></tr>
 </table>
 
 ## O projektu
 
-Duca Dizajn je koncept za studio grafičkog dizajna iz Novog Sada koji radi logotipe, vizit karte, pozivnice za venčanja i proslave i materijal za štampu, a sav posao vodi preko Instagrama. Profil pokazuje radove, ali ne odgovara na ono što ljudi žele da znaju pre prve poruke: šta tačno dobijaju, koliko traje i kako se plaća. Ova strana odgovara na to i onda vraća posetioca na profil.
+Duca Dizajn je grafički dizajn iz Novog Sada: logotipi, vizit karte, pozivnice za venčanja i proslave i materijal za štampu, a sav posao ide preko Instagrama. Profil pokazuje radove, ali ne odgovara na ono što ljudi žele da znaju pre prve poruke: šta tačno dobijaju, koliko traje i kako se plaća. Sajt odgovara na to i onda vraća posetioca na profil.
 
 Sajt je ostao statički HTML, bez CMS-a i kontakt forme, jer se razgovor ionako vodi na Instagramu. Deo sa radovima je jedna kartica sa kolažom koja vodi na profil, pa nema galerije koja zaostaje za objavama. Svaka usluga ima početnu cenu. Iste cene stoje i u strukturisanim podacima, dvadesetak redova dalje u istom fajlu, da se prikazana cena i ona koju čita pretraživač ne bi tiho razišle.
 
@@ -29,8 +29,8 @@ Sajt je ostao statički HTML, bez CMS-a i kontakt forme, jer se razgovor ionako 
 - Jedna duga strana u pet numerisanih celina, uz tri pravne strane i stranu za grešku koja vraća pravi status 404
 - Četiri kartice usluga, svaka sa kratkim opisom, spiskom šta je uključeno i početnom cenom
 - Proces rada u četiri koraka i četiri česta pitanja, zapisana i kao FAQPage
-- GSAP i Font Awesome prebačeni sa javnog CDN-a na sam sajt, pošto je stroži CSP tiho ugasio animacije i ikone
-- Poseban kursor samo iznad 1200 px i samo bez smanjenja pokreta, uz link za preskakanje na sadržaj i tamniji tekst radi kontrasta na krem podlozi
+- Fontovi i podskup Font Awesome ikona na samom sajtu, pošto je stroži CSP tiho blokirao kopije sa javnog CDN-a
+- Animacije na običnom JavaScript-u, bez biblioteke, koje miruju uz smanjenje pokreta, uz link za preskakanje na sadržaj i tamniji tekst radi kontrasta na krem podlozi
 - Analitika kroz Consent Mode v2, isključena dok posetilac ne prihvati
 
 ## Merenja

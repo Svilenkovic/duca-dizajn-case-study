@@ -2,25 +2,25 @@
 
 # Duca Dizajn
 
-Concept site for a Novi Sad graphic design studio that works through Instagram: services, starting prices, process and FAQ on one page.
+Portfolio site for Duca Dizajn, a Novi Sad graphic designer who works through Instagram: services, starting prices, process and FAQ on one page.
 
 **[ducadizajn.svilenkovic.com](https://ducadizajn.svilenkovic.com/)** · [Case study (in Serbian)](https://svilenkovic.com/radovi/duca-dizajn) · [Srpski](README.sr.md)
 
 > [!NOTE]
-> My own demo. The source code is private. This page describes the idea and how it is built.
+> Client project. The source code belongs to the client and stays in a private repository. This page describes what I built and how.
 
 <table>
-  <tr><td><b>Client</b></td><td>Concept project</td></tr>
+  <tr><td><b>Client</b></td><td>Duca Dizajn</td></tr>
   <tr><td><b>Industry</b></td><td>Graphic design: logos, business cards, invitations and print</td></tr>
   <tr><td><b>Location</b></td><td>Novi Sad, Serbia</td></tr>
   <tr><td><b>Type</b></td><td>Portfolio website</td></tr>
-  <tr><td><b>My role</b></td><td>Concept, design, development, SEO and hosting</td></tr>
-  <tr><td><b>Stack</b></td><td>HTML5, CSS3, vanilla JS, GSAP ScrollTrigger</td></tr>
+  <tr><td><b>My role</b></td><td>Design, development, SEO, hosting and maintenance</td></tr>
+  <tr><td><b>Stack</b></td><td>HTML5, CSS3, vanilla JS</td></tr>
 </table>
 
 ## About the project
 
-Duca Dizajn is a concept for a graphic design studio in Novi Sad that makes logos, business cards, wedding and party invitations and print material, and runs all its work through Instagram. The profile shows the work but does not answer what people want to know before the first message: what exactly they get, how long it takes and how payment works. This page answers that and then sends the visitor back to the profile.
+Duca Dizajn is a graphic design business from Novi Sad that makes logos, business cards, wedding and party invitations and print material, and runs all its work through Instagram. The profile shows the work but does not answer what people want to know before the first message: what exactly they get, how long it takes and how payment works. The site answers that and then sends the visitor back to the profile.
 
 I kept the site to static HTML with no CMS and no contact form, since the conversation happens on Instagram anyway. The work section is a single collage card that links to the profile, so there is no gallery that falls behind the posts. Each service shows a starting price. The same prices sit in the structured data, about twenty lines away in the same file, so the visible price and the one search engines read do not quietly drift apart.
 
@@ -29,8 +29,8 @@ I kept the site to static HTML with no CMS and no contact form, since the conver
 - One long page in five numbered sections, plus three legal pages and a 404 page that returns a real 404 status
 - Four service cards, each with a short description, what is included and a starting price
 - A four-step process, and four common questions marked up as FAQPage
-- GSAP and Font Awesome moved from a public CDN onto the site after a stricter content security policy silently stopped the animations and icons
-- A custom cursor only above 1200 px and only without reduced motion, plus a skip link and darker text for contrast on the cream background
+- Fonts and a Font Awesome icon subset served from the site itself, after a stricter content security policy quietly blocked the CDN copies
+- Animations in plain JavaScript with no library that stay still with reduced motion, plus a skip link and darker text for contrast on the cream background
 - Analytics under Consent Mode v2 that stays off until the visitor accepts
 
 ## Results
