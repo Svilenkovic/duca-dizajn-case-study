@@ -4,7 +4,7 @@
 
 Portfolio site for Duca Dizajn, a Novi Sad graphic designer who works through Instagram: services, starting prices, process and FAQ on one page.
 
-**[ducadizajn.svilenkovic.com](https://ducadizajn.svilenkovic.com/)** · [Case study (in Serbian)](https://svilenkovic.com/radovi/duca-dizajn) · [Srpski](README.sr.md)
+**[ducadizajn.svilenkovic.com](https://ducadizajn.svilenkovic.com/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/duca-dizajn) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > Client project. The source code belongs to the client and stays in a private repository. This page describes what I built and how.
@@ -40,7 +40,7 @@ I kept the site to static HTML with no CMS and no contact form, since the conver
 | Mobile | 100 | 100 | 100 | 100 |
 | Desktop | 100 | 100 | 100 | 100 |
 
-PageSpeed Insights, lab test of the live site, September 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `FAQPage`, `LocalBusiness`.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `FAQPage`, `LocalBusiness`.
 
 ## Screenshots
 
